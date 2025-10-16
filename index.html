@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aryan Dhiman | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      color: #333;
+      line-height: 1.6;
+      animation: fadeBody 1s ease-in;
+    }
+
+    @keyframes fadeBody {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      transform: scale(1);
+      animation: scaleHeader 1s ease-in-out;
+    }
+
+    @keyframes scaleHeader {
+      0% { transform: scale(0.9); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #3498db;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    ul li:hover {
+      transform: translateX(5px);
+    }
+
+    a {
+      color: #3498db;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #1abc9c;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2c3e50;
+      color: white;
+      margin-top: 40px;
+      animation: fadeFooter 2s ease-in;
+    }
+
+    @keyframes fadeFooter {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aryan Dhiman</h1>
+    <p>B.Tech CSE Student | Dev Bhoomi Uttarakhand University</p>
+  </header>
+
+  <section>
+    <h2>👋 About Me</h2>
+    <p>Hi! I'm Aryan Dhiman from Uttar Pradesh, currently pursuing a Bachelor of Technology in Computer Science and Engineering at Dev Bhoomi Uttarakhand University. I'm passionate about technology, coding, and building innovative solutions.</p>
+
+    <h2>🎓 Education</h2>
+    <ul>
+      <li><strong>10th Grade:</strong> Vivekananda School, Jogiwala, Dehradun</li>
+      <li><strong>12th Grade:</strong> Vivekananda School, Jogiwala, Dehradun</li>
+      <li><strong>Degree:</strong> B.Tech in Computer Science and Engineering</li>
+      <li><strong>University:</strong> Dev Bhoomi Uttarakhand University</li>
+      <li><strong>Location:</strong> Dehradun, Uttarakhand</li>
+    </ul>
+
+    <h2>💻 Skills</h2>
+    <ul>
+      <li>Languages: C, C++, Python, Java</li>
+      <li>Web: HTML, CSS, JavaScript, Bootstrap</li>
+      <li>Database: MySQL</li>
+      <li>Tools: Git, GitHub, VS Code</li>
+    </ul>
+
+    <h2>📬 Contact</h2>
+    <ul>
+      <li>Email: aryan.dhiman@example.com</li>
+      <li>LinkedIn: <a href="#">linkedin.com/in/aryan-dhiman</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Aryan Dhiman. Crafted with ❤️ and code.</p>
+  </footer>
+</body>
+</html>
